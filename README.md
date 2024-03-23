@@ -33,7 +33,7 @@ RegisterNumber:  212222230149
 
 
 ## MainActivity.java:
-
+```
 package com.example.ex4;
 
 import androidx.appcompat.app.AppCompatActivity;
@@ -91,9 +91,10 @@ public class MainActivity extends AppCompatActivity {
 
     }
 }
+```
 
 ## activity_main.xml:
-
+```
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
@@ -110,9 +111,9 @@ public class MainActivity extends AppCompatActivity {
         android:onClick="btnGetContacts"/>
 
 </RelativeLayout>
-
-## AndroidManifest.xml
-
+```
+# AndroidManifest.xml
+```
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools" package= "com.example.ex4">
@@ -140,7 +141,7 @@ public class MainActivity extends AppCompatActivity {
     </application>
 
 </manifest>
-
+```
 # Output:
 ![image](https://github.com/Sriram8452/Ex_4_Content/assets/118708032/20529179-26b6-45e1-a59c-acdeba3c19e5)
 ![image](https://github.com/Sriram8452/Ex_4_Content/assets/118708032/9e87e942-faeb-4dcf-92dc-7798cd3eb3ab)
